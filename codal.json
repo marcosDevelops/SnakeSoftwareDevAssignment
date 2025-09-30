@@ -1,7 +1,7 @@
 {
     "target": {
         "name": "codal-microbit-v2",
-        "url": "http://scc-source.lancs.ac.uk/scc.Y1/scc.131/codal-microbit-v2.git",
+        "url": "https://scc-source.lancs.ac.uk/scc.Y1/scc.131/codal-microbit-v2.git",
         "branch": "master",
         "type": "git"
     },
