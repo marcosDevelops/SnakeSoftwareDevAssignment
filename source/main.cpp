@@ -4,6 +4,7 @@ MicroBit uBit;            // The MicroBit object
 
 const int MAX_LENGTH = 4; // The maximum length of the snake
 int sleep_period = 400;   // The initial sleep time
+const int MIN_LENGTH = 1; // The minimum length of the snake
 
 // Create a structure for the coordinates of each pixel of the snake
 struct pixel
@@ -26,7 +27,7 @@ void initialize_snake(struct pixel new_head)
     int i;
     snake[0] = new_head;
 
-    for (i = 1; i < MAX_LENGTH + 1; i++)
+    for (i = 1; i < MIN_LENGTH + 1; i++)
     {
         snake[i].x = -1;
         snake[i].y = -1;
